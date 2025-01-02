@@ -23,13 +23,13 @@ This repositry includes the source code used in a paper entitled ``Side-Channel 
 
     ```git clone https://github.com/ECSIS-lab/CiC_KUTH24.git```
 
-2. Execute trivium.py to analyze Trivium round function outputs and save the results in JSON files.
+2. Execute trivium.py to analyze Trivium round function outputs and save the results in JSON files in the ```./intermediate_json/``` directory.
 
     ```python3 ./trivium.py```
 
 3. Determine the arguments of RRLD.py by setting the values of variables in run_RRLD.sh.
 
-4. Execute run_RRLD.sh to apply RRLD strategy and to save chosen-IV array under the conditions configured in step 3. If ```---save_sig``` argument is set, sigma polynomials resulted in RRLD.py are saved in Json files.
+4. Execute run_RRLD.sh to apply RRLD strategy and to save chosen-IV array in the ```./chosen_iv/``` directory under the conditions configured in step 3. If ```---save_sig``` argument is set, sigma polynomials resulted in RRLD.py are saved in Json files in the ```./sigma_json/``` directory.
 
     ```./run_RRLD.sh```
 
