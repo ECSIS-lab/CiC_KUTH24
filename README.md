@@ -4,12 +4,9 @@ This repositry includes the source code used in a paper entitled ``Side-Channel 
 ## Repository structure
 ```
 .
-├── chosen_iv/
-├── intermediate_json/
 ├── README.md
 ├── run_RRLD.sh
 ├── RRLD.py
-├── sigma_json/
 ├── trivium.py
 ├── utils.py
 ├── utils_RRLD.py
